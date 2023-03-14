@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+      dockerfile: 
+    ports:
+      - "8089:8080"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: 
+    ports:
+      - "4000:80"
