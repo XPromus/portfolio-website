@@ -2,7 +2,7 @@
 
 </script>
 
-<div class="h-full bg-slate-700 overflow-y-scroll">
+<div class="h-full overflow-y-scroll bg-slate-100 dark:bg-slate-700">
 
 </div>
 
