@@ -37,7 +37,7 @@
 
 </script>
 
-<nav class="fixed top-0 left-0 flex flex-row w-screen px-5 py-5 text-black shadow dark:text-white bg-slate-200 dark:bg-slate-800 drop-shadow-lg shadow-black">
+<nav class="sticky top-0 left-0 z-50 flex flex-row w-screen px-5 py-5 text-black shadow dark:text-white bg-slate-200 dark:bg-slate-800 drop-shadow-lg shadow-black">
     <span class="font-bold min-w-fit w-fit">Christopher-Manuel Hilgner</span>
     <div class="flex flex-row-reverse w-full space-x-5 space-x-reverse">
         <div class="flex flex-row space-x-3 min-w-fit">

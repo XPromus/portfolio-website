@@ -10,9 +10,12 @@
 
 </script>
 
-<main class="h-screen {colorTheme}">
-    <Navbar />
-    <PageContent />
+<main class="h-screen max-h-screen {colorTheme}">
+    <div class="flex flex-col w-full h-full">
+        <Navbar />
+        <PageContent />
+    </div>
+    
 </main>
 
 <style>
