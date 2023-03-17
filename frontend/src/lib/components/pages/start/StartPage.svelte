@@ -11,8 +11,8 @@
             </p>
         </div>
         <div class="flex flex-row-reverse w-1/2 h-full space-x-1 space-x-reverse">
+            <StartTabButton text="Contact"/>
             <StartTabButton text="Blog"/>
-            <StartTabButton text="Education"/>
             <StartTabButton text="Experiences"/>
             <StartTabButton text="Skills"/>
             <StartTabButton text="Projects"/>
