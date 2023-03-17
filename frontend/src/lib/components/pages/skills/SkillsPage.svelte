@@ -9,7 +9,6 @@
     import SpringLogoLegal from "../../../legal/SpringLogoLegal.svelte";
     import GitLogoLegal from "../../../legal/GitLogoLegal.svelte";
     import DockerLogoLegal from "../../../legal/DockerLogoLegal.svelte";
-    import ProgressBar from "./ProgressBar.svelte";
     import TailwindcssLogoLegal from "../../../legal/TailwindcssLogoLegal.svelte";
 </script>
 
@@ -17,14 +16,6 @@
     <div class="w-full h-full basis-2/3">
         <div class="flex flex-col w-full h-full">
             <div class="flex flex-col items-center justify-center w-full h-full space-y-10">
-                <!--
-                <ProgressBar icon="{svelteLogo}" baseColor="orange" width="85" alt="Svelte"/>
-                <ProgressBar icon="{unityLogoLight}" baseColor="slate" width="80" alt="Unity"/>
-                <ProgressBar icon="{springLogo}" baseColor="green" width="70" alt="Springboot"/>
-                <ProgressBar icon="{gitLogo}" baseColor="amber" width="50" alt="Git"/>
-                <ProgressBar icon="{dockerLogo}" baseColor="blue" width="40" alt="Docker"/>
-                <ProgressBar icon="{tailwindLogo}" baseColor="sky" width="40" alt="Tailwindcss"/>
-                -->
                 <div class="flex flex-row items-center w-full px-5 space-x-5">
                     <img class="w-fit" src="{svelteLogo}" alt="Svelte"/>
                     <div class="w-full rounded-full h-2.5 bg-slate-600">
@@ -74,7 +65,7 @@
     <div class="basis-1/3">
         <div class="w-full h-full p-5 text-left text-slate-200">
             <div>
-                <h4>Used for Work</h4>
+                <h4 class="text-xl font-bold">Used for Work</h4>
                 <ul class="list-disc">
                     <li>Unity</li>
                     <li>Svelte</li>
@@ -84,7 +75,7 @@
                 </ul>
             </div>
             <div class="mt-5">
-                <h4>Used for private projects</h4>
+                <h4 class="text-xl font-bold">Used for private projects</h4>
                 <li>Svelte</li>
                 <li>TailwindCSS</li>
                 <li>Springboot</li>
