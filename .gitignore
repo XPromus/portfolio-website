@@ -1,27 +1,39 @@
 # Logs
 frontend/logs
-frontend/*.log
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/pnpm-debug.log*
-frontend/lerna-debug.log*
+old-frontend/*.log
+old-frontend/npm-debug.log*
+old-frontend/yarn-debug.log*
+old-frontend/yarn-error.log*
+old-frontend/pnpm-debug.log*
+old-frontend/lerna-debug.log*
 
-frontend/node_modules
-frontend/dist
-frontend/dist-ssr
-frontend/*.local
+old-frontend/node_modules
+old-frontend/dist
+old-frontend/dist-ssr
+old-frontend/*.local
 
 # Editor directories and files
-frontend/.vscode/*
-frontend/!.vscode/extensions.json
-frontend/.idea
+old-frontend/.vscode/*
+old-frontend/!.vscode/extensions.json
+old-frontend/.idea
+old-frontend/.DS_Store
+old-frontend/*.suo
+old-frontend/*.ntvs*
+old-frontend/*.njsproj
+old-frontend/*.sln
+old-frontend/*.sw?
+
 frontend/.DS_Store
-frontend/*.suo
-frontend/*.ntvs*
-frontend/*.njsproj
-frontend/*.sln
-frontend/*.sw?
+frontend/node_modules
+frontend/build
+frontend/.svelte-kit
+frontend/package
+frontend/.env
+frontend/.env.*
+frontend/!.env.example
+frontend/vite.config.js.timestamp-*
+frontend/vite.config.ts.timestamp-*
+
 
 .vscode/*
 !.vscode/extensions.json
