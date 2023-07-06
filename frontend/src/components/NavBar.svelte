@@ -30,9 +30,6 @@
         <NavBarButton handleClick={() => handleClick("/projects", false)}>
             <span>{$t("projects")}</span>
         </NavBarButton>
-        <NavBarLangButton targetLang="de"/>
-        <NavBarLangButton targetLang="en"/>
-        <NavBarLangButton targetLang="jp"/>
     </div>
     <div class="flex flex-row-reverse px-5 space-x-2 basis-1/2">
         <NavBarIconButton>

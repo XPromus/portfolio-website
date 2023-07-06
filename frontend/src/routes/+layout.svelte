@@ -9,7 +9,7 @@
     <div class="shrink">
         <NavBar />
     </div>
-    <div class="w-full h-full grow">
+    <div class="w-full h-full bg-slate-700">
         <slot />
     </div>
 </div>
